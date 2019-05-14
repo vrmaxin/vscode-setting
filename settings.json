@@ -1,0 +1,50 @@
+{
+  /* 终端 */
+
+  "terminal.integrated.shell.windows": "D:\\Program Files\\Git\\bin\\sh.exe",
+
+  /* 编辑器 */
+
+  //缩进为两个空格
+  "editor.tabSize": 2,
+
+  // 每次保存的时候自动格式化
+  "editor.formatOnSave": true,
+
+  /* Git */
+
+  "git.autofetch": true,
+
+  /* 图标主题 */
+
+  "workbench.iconTheme": "vscode-icons",
+
+  /* Vue文件格式化 */
+
+  // Vue文件JS代码格式化
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+
+  /* 代码格式化 */
+
+  // 让prettier使用eslint的代码格式进行校验
+  "prettier.eslintIntegration": true,
+
+  // 去掉代码结尾的分号
+  "prettier.semi": false,
+
+  // 使用带引号替代双引号
+  "prettier.singleQuote": true,
+
+  // 让函数(名)和后面的括号之间加个空格
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+
+  /* JSON文件格式化 */
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  /* JS文件格式化 */
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
