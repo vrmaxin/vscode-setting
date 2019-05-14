@@ -24,6 +24,16 @@
   // Vue文件JS代码格式化
   "vetur.format.defaultFormatter.js": "vscode-typescript",
 
+  // Vue文件HTML代码格式化
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+
+  // 标签属性折行显示
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "force-aligned"
+    }
+  },
+
   /* 代码格式化 */
 
   // 让prettier使用eslint的代码格式进行校验
@@ -45,6 +55,11 @@
 
   /* JS文件格式化 */
   "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  /* HTML文件格式化 */
+  "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
